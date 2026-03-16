@@ -14,34 +14,60 @@ body {
 h1,
 h2,
 h3 {
+    font-family: 'Playfar Display', serif;
+    line-height: 1.6;
 }
 h1 {
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 h2 {
     margin-top: 20px;
+    text-decoration: underline;
 }
 h3 {
+    font-style: italic;
 }
 p {
+    text-indent: 20px;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 18px;
+    line-height: 1.8;
+
 }
 a {
+    color: #1a73e8;
+    text-decoration: none;
 }
 a:hover {
+    color: red;
 }
 blockquote {
     background: #eee;
     padding: 10px 20px;
     border-left: 5px solid #0077cc;
     margin: 20px 0;
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-style: italic;
+    font-size: 18px;
+    font-weight: 200;
+    word-spacing: 10px;
+    line-height: 1.6;
 }
 ul {
     padding-left: 20px;
+    line-height: 1.8;
+    font-size: 16px;
 }
 pre {
     background: #333;
     padding: 10px;
     border-radius: 5px;
     overflow-x: auto;
+    color: #eee;
+    line-height: 1.7;
 }
 .highlight {
+    background-color: yellow;
 }
